@@ -1,6 +1,6 @@
-# 💳 Nubank Credit Card Lakehouse — Engenharia de Dados no Databricks
+# 💳 Cartão de Crédito Nubank Lakehouse — Engenharia de Dados no Databricks
 
-Pipeline completo de Engenharia de Dados construído no **Databricks** utilizando **Arquitetura Medalhão**, **Delta Lake**, **Unity Catalog**, **PySpark**, **SQL** e **Databricks Workflows** para ingestão, tratamento, governança e análise de gastos de faturas de cartão de crédito.
+Pipeline de Engenharia de Dados construído no **Databricks** utilizando **Arquitetura Medalhão**, **Delta Lake**, **Unity Catalog**, **PySpark**, **SQL** e **Databricks Workflows** para ingestão, tratamento, governança e análise de gastos de faturas de cartão de crédito.
 
 ---
 
@@ -28,7 +28,7 @@ O projeto implementa um fluxo ponta a ponta dentro do catálogo `nubank_lakehous
 
 A rastreabilidade em nível de tabela e coluna foi capturada nativamente pelo **Unity Catalog**, demonstrando a derivação desde a camada Silver até os ativos de leitura da camada Gold, além da aplicação de **System Tags (Certificação de Dados)** para homologação das tabelas analíticas:
 
-![Data Lineage - Unity Catalog](images/data_lineage.png)
+![Data Lineage - Unity Catalog](images/data_lineage.png.png)
 
 ---
 
